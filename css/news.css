@@ -1,0 +1,46 @@
+/* 主体部分 */
+.newsPg .banner img {
+    width: 100%;
+}
+/* 列表样式 */
+.newsList li {
+    padding: 20px;
+    border-bottom: 1px dashed #CCC;
+}
+.newsTime {
+    width: 80px;
+    float: left;
+    padding-left: 10px;
+}
+.newsTime p {
+    font-size: 28px;
+    color: #555;
+}
+.newsTime span {
+    line-height: 30px;
+    color: #777;
+}
+.newsTitle {
+    margin-left: 100px;
+    padding-right: 10px;
+}
+.newsTitle h3 {
+    color: #666;
+    font-size: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.newsTitle p {
+    line-height: 1.8;
+    font-size: 15px;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.newsList li:last-child {
+    border: none;
+}
+.newsList li a:hover h3 {
+    color: #2FC1AC;
+}

@@ -1,0 +1,25 @@
+/* 主体部分 */
+.serPg .banner img{
+    width: 100%;
+}
+.bannerbox1 {
+    position: relative;
+    overflow: hidden;
+    height: 670px;
+}
+.banner1 {
+    width: 1920px;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+.bannerbox2 {
+    position: relative;
+    overflow: hidden;
+    height: 575px;
+}
+.bannerbox3 {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}

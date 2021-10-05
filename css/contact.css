@@ -1,0 +1,49 @@
+/* 主体部分 */
+.conPg,.banner{
+    width: 100%;
+}
+.conPg .banner img{
+    width: 100%;
+}
+/* 地图区域 */
+.map {
+    position: relative;
+}
+.conPg .map iframe {
+    width: 100%;
+    border: none;
+    height: 300px;
+}
+.map .loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* 联系我们 */
+.title1 h2 {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    color: #666;
+}
+.title1 h2:after {
+    width: 50px;
+    height: 2px;
+    display: block;
+    content: "";
+    background-color: #2FC1AC;
+    margin-top: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.address ul li {
+    line-height: 2.8;
+    font-size: 20px;
+    margin-left: 26%;
+}
+.address ul li span {
+    padding: 0 10px;
+    color: #2FC1AC;
+}
